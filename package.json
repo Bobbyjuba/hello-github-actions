@@ -1,0 +1,28 @@
+{
+  "name": "hello-github-actions",
+  "version": "1.0.0",
+  "description": "This course will walk you through writing your first action and using it with a workflow file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobbyjuba/hello-github-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bobbyjuba/hello-github-actions/issues"
+  },
+  "homepage": "https://github.com/Bobbyjuba/hello-github-actions#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
